@@ -40,9 +40,7 @@ def destroy():
 if "load" not in st.session_state or not st.session_state.initialized:
     cap = cv2.VideoCapture(0)    
     st.session_state["load"] = cap
-    st.session_state["init"] = 0
     st.session_state.initialized = True
-
 
 stop_button = st.button("Stop", on_click=destroy)
 
