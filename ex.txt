@@ -1,0 +1,5 @@
+Kompresja obrazów oraz modyfikacje metodą SVD. 
+Dysponujemy na wejściu obrazem bitmapowym (kolor lub odcienie szarości). 
+Wykorzystując rozkład SVD dokonaj kompresji obrazu o pożądanym wskaźniku. 
+Przygotuj funkcję filtrującą, która wartości wartości osobliwe przekształca na nowe wartości. 
+W projekcie powinny być przetestowane pod względem użytkowym obrazy o różnych rozmiarach i typach (ilustracja, diagram, font, pejzaż).
