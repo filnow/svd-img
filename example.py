@@ -37,7 +37,6 @@ def svd(M):
 
 
 if __name__ == '__main__':
-    #NOTE: resource https://acme.byu.edu/00000181-a729-d778-a18f-bf6b263d0000/the-svd-and-image-compression-pdf
     A = np.array([[4,2,0],[1,5,6]])
 
     print("\nInput matrix A:\n", A)
